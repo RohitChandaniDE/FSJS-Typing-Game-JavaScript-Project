@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="typing-test">
+        <div>
+          <h2>Type the exact sentence given below:</h2>
+          <p>JavaScript has very good future.</p>
+        </div>
+        <div id="typing-input-container">
+          <textarea id="typing-input" placeholder="Start typing here..." onclick="startTyping()" autofocus></textarea>
+        </div>
+        <div id="timer">Time: 0s</div>
+        <div>
+          <button id="start-typing-btn" onclick="reset()">Reset</button>
+        </div>
+      </div>
+<script src="script.js"></script>
+</body>
+</html>
+  
